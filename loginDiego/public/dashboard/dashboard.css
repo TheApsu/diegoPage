@@ -1,0 +1,44 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	background-color: #3b83bd;
+	min-height: 80px;
+	padding-right: 10px;
+}
+
+.header .login a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.header .login a:hover{
+	text-decoration: underline;
+}
+
+.container{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.container table{
+	width: 100%;
+	border: 1px solid #ccc;
+	margin-bottom: 1rem;
+}
+
+.container table tr th{
+	background-color: #3b83bd;
+	font-size: 1.2rem;
+	color: #fff;
+	padding: 5px 12px;
+}
